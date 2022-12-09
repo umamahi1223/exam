@@ -1,0 +1,20 @@
+create database company;
+use company;
+show databases;
+create table employee(id int,name varchar(50),salary int,designation varchar(50));
+insert into employee values(1,"uma",28000,"tester");
+insert into employee values(2,"mahi",30000,"manager");
+insert into employee values(3,"niha",25000,"developer");
+insert into employee values(4,"aishwarya",28000,"designer");
+insert into employee values(5,"paravllika",28000,"hacker");
+update employee set name = "suri" where id=4;
+select * from employee;
+show tables;
+update employee set name = "raki" where id=4;
+show tables;
+delete from employee where id = 2;
+select * from employee;
+show tables;
+select * from employee where id>2 &&id<5;
+show tables;
+select * from employee order by salary asc
