@@ -1,0 +1,52 @@
+{
+"valid":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"image":"C:\\Users\\UB69919\\Downloads\\zensar-logo.jpg",
+"expectedresult":"Category List"
+},
+"empty":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"",
+"expectedresult":"The title field is required."
+},
+"char1":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"1",
+"expectedresult":"Category List"
+},
+"num":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"123456",
+"expectedresult":"The title field must be at least 5 characters in length."
+},
+"alphanum":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"asdf12345",
+"expectedresult":"Category List"
+},
+"splnum":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"1@3456",
+"expectedresult":"Category List"
+},
+"namespace":
+{
+"email":"admin@gmail.com",
+"pswrd":"123456",
+"name":"um    a12",
+"expectedresult":"Category List"
+}
+
+}

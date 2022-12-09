@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Addcoupon" verbose = "1">
+<test name = "Xlogist_Testcases"> 
+<parameter name = "browser" value = "chrome" />
+<parameter name = "url" value = "https://xlogist.pisystindia.com/mainhub/login" />
+<classes>
+<class name = "Testcases.Xlogist_Testcases" />
+</classes>
+</test>
+</suite>

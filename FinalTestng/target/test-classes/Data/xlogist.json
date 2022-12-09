@@ -1,0 +1,55 @@
+{
+"valid":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"hgfd",
+"expectedresult":"Coupon List"
+},
+"char1":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"h",
+"expectedresult":"Coupon name should be 3 to 25 length"
+},
+"empty":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"",
+"expectedresult":"Coupon name is required"
+},
+"char26":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"123456789009876543218765432345",
+"expectedresult":"Coupon name should be 3 to 25 length"
+},
+"splcharwithnum":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"11@",
+"expectedresult":"Provide Valid Coupon Name"
+},
+"splcharwithalpha":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"aa@",
+"expectedresult":"Provide Valid Coupon Name"
+},
+"couponwithspace":
+{
+"email":"mainhub@gmail.com",
+"pswrd":"123456",
+"coupon":"um    aa",
+"expectedresult":"Provide Valid Coupon Name"
+}
+
+
+
+
+}

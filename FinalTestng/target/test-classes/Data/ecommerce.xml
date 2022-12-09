@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "update" verbose = "1">
+<test name = "Ecommerce_Testcases"> 
+<parameter name = "browser" value = "chrome" />
+<parameter name = "url" value = "https://products.pisystindia.com/Ecommerce/admin" />
+<classes>
+<class name = "Testcases.Ecommerce_Testcases" />
+</classes>
+</test>
+</suite>
